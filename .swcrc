@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json.schemastore.org/swcrc",
+    "env": {
+        "mode": "entry",
+        "coreJs": "3.22",
+        "dynamicImport": true,
+        "forceAllTransforms":true
+    },
+    "jsc": {
+        "target": "es2020",
+        "parser": {
+            "syntax": "ecmascript",
+            "jsx": false,
+            "dynamicImport": false,
+            "privateMethod": false,
+            "functionBind": false,
+            "classPrivateProperty": false,
+            "exportDefaultFrom": false,
+            "exportNamespaceFrom": false,
+            "decorators": false,
+            "decoratorsBeforeExport": false,
+            "importMeta": false
+        }
+    },
+    // Enable minification
+    "minify": false
+}
